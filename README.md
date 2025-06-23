@@ -55,7 +55,7 @@ cd Process-Scheduler
 ```
 ### 2. **Compile the program:**
 ```
-g++ scheduler.cpp -o scheduler
+g++ process_scheduler.cpp -o scheduler
 ./scheduler
 ```
 ### 3. **Run the executable:**
@@ -63,7 +63,7 @@ g++ scheduler.cpp -o scheduler
 📂 File Structure
 bash
 Copy code
-├── scheduler.cpp   # Main C++ source file
+├── process_scheduler.cpp   # Main C++ source file
 ├── README.md      # Project documentation
 ```
 ## ✨ Future Improvements
@@ -78,6 +78,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check issues.
 
 ## 📃 License
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 
