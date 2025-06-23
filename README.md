@@ -50,8 +50,8 @@ Each algorithm calculates essential process performance metrics such as **Waitin
 
 ### 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/os-process-scheduler.git
-cd os-process-scheduler
+git clone https://github.com/medhavisahgal/Process-Scheduler.git
+cd Process-Scheduler
 ```
 ### 2. **Compile the program:**
 ```
