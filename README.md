@@ -78,8 +78,8 @@ java Main
 
 ```
 📦 Process-Scheduler
-├── Main.java         # Main Java class (entry point)
-├── README.md         # Project documentation
+├── Main.java         
+├── README.md         
 ```
 
 ---
