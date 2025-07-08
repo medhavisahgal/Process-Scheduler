@@ -1,37 +1,43 @@
-# 🖥️ OS Process Scheduler Simulator in C++
-
+# 🖥️ OS Process Scheduler Simulator in Java
 ## 📌 Description
+This project simulates key **CPU Scheduling Algorithms** used in Operating Systems, implemented in **Java**. It covers:
 
-This project simulates various **CPU Scheduling Algorithms** used in Operating Systems, implemented in **C++**. It covers:
+- ✅ First Come First Serve (FCFS)
+- ✅ Shortest Job First (SJF)
+- ✅ Priority Scheduling
+- ✅ Round Robin (RR)
 
-- **First Come First Serve (FCFS)**
-- **Shortest Job First (SJF)**
-- **Priority Scheduling**
-- **Round Robin (RR)**
+Each algorithm computes essential process performance metrics such as:
 
-Each algorithm calculates essential process performance metrics such as **Waiting Time, Turnaround Time, Completion Time**, and displays a summary table after execution.
+- Completion Time (CT)
+- Turnaround Time (TAT)
+- Waiting Time (WT)
+
+And outputs a summary table after execution.
 
 ---
 
 ## 🚀 Features
 
-- Supports 4 fundamental CPU Scheduling algorithms.
-- Computes:
-  - Completion Time
-  - Turnaround Time
-  - Waiting Time
-  - Average Waiting & Turnaround Time
-- Clean tabular output for process details.
-- Easily extendable (code structured using **`struct`** and **`enum`**).
+- Simulates 4 fundamental CPU Scheduling algorithms
+- Calculates:
+  - ⏱️ Completion Time
+  - 🔁 Turnaround Time
+  - ⌛ Waiting Time
+  - 📊 Average WT & TAT
+- Clean tabular console output
+- Modular, extensible design using Java classes and enums
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Language:** C++
-- **Concepts:** Struct, Enum, Vectors, Queues, Sorting, Scheduling Algorithms
+- **Language:** Java
+- **Concepts:** OOP, Enums, Lists, Queues, Sorting, Scheduling Algorithms
+
 ---
-### Scheduling: FCFS
+
+## 🧪 Sample Output: FCFS
 
 | PID | AT | BT | PR | CT | TAT | WT |
 |-----|----|----|----|----|-----|----|
@@ -41,43 +47,61 @@ Each algorithm calculates essential process performance metrics such as **Waitin
 |  4  | 3  | 5  | 2  | 26 | 23  | 18 |
 |  5  | 4  | 2  | 5  | 28 | 24  | 22 |
 
-**Average WT:** 11.40  
-**Average TAT:** 17.00
+**Average WT:** `11.40`  
+**Average TAT:** `17.00`
 
 ---
 
 ## 💻 How to Run
 
-### 1. **Clone the repository:**
+### 1. **Clone the repository**
 ```bash
 git clone https://github.com/medhavisahgal/Process-Scheduler.git
 cd Process-Scheduler
+````
+
+### 2. **Compile the Java file**
+
+```bash
+javac Main.java
 ```
-### 2. **Compile the program:**
+
+### 3. **Run the simulator**
+
+```bash
+java Main
 ```
-g++ process_scheduler.cpp -o scheduler
-./scheduler
+
+---
+
+## 📁 File Structure
+
 ```
-### 3. **Run the executable:**
+📦 Process-Scheduler
+├── Main.java         # Main Java class (entry point)
+├── README.md         # Project documentation
 ```
-📂 File Structure
-bash
-Copy code
-├── process_scheduler.cpp   # Main C++ source file
-├── README.md      # Project documentation
-```
+
+---
+
 ## ✨ Future Improvements
-- Add support for Multi-Level Feedback Queue (MLFQ).
 
-- Implement Preemptive SJF and Priority Scheduling.
+* ✅ Add Preemptive SJF and Preemptive Priority
+* 🔁 Add support for Multi-Level Feedback Queue (MLFQ)
+* 🎨 GUI or web-based Gantt Chart visualization (JavaFX or Web)
 
-- GUI or web-based Gantt chart visualization.
+---
 
 ## 🤝 Contributions
+
 Contributions, issues, and feature requests are welcome!
-Feel free to check issues.
+Feel free to fork the repo, open issues, or submit PRs. 💬
+
+---
 
 ## 📃 License
-This project is licensed under the **MIT License**.
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
 
 
